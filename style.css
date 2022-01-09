@@ -1,0 +1,71 @@
+.navbar {
+    font-family: 'Poppins', sans-serif;
+    background-color: #BE3144;
+    font-size: 1.3rem;
+    font-weight: lighter;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.welcome {
+    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+    height: 95vh;
+}
+.lead {
+    color: #BE3144;
+    font-weight: 200;
+    font-size: 2rem;
+} 
+.name {
+    font-family: 'Raleway', sans-serif;
+}
+#project {
+    background-color: #45567D;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+#project h1 {
+    margin: 6rem auto 6rem auto;
+    border-bottom: 0.2rem solid white;
+    max-width: 640px;
+}
+.btn {
+    font-size: 1.5rem;
+    transition: 1s;
+    background-color: #3a3d40;
+    margin-bottom: 3rem;
+}
+.btn:hover {
+    background-color: #BE3144;
+}
+.contact {
+    background-color: #3a3d40;
+    height: 80vh;
+}
+.contact h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+.contact-link a {
+    padding: 1rem 2rem;
+    font-size: 1.4rem;
+    color: white;
+    text-decoration: none;
+    text-shadow: 2px 2px 1px #1f1f1f;
+    transition: 0.5s;
+}
+.contact-link a:hover {
+    transform: translateY(8px);
+}
+footer {
+    background-color: #3a3d40;
+    border-top: 4px solid #BE3144;
+    padding: 2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+}
+footer p {
+    margin: 1rem;
+}
